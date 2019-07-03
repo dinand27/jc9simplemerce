@@ -49,6 +49,12 @@ class ManageProduct extends Component {
                this.setState({products: res.data, selectedId: 0})
             })
     }
+    getCart = () => {
+        axios.get('http://localhost:2019/cart')
+            .then(res => {
+               this.setState({products: res.data, selectedId: 0})
+            })
+    }   
 
     addProduct = () => {
         const name = this.name.value
@@ -140,6 +146,7 @@ class ManageProduct extends Component {
                 </table>
                 <div className='col text-center'>
                     <button id='' name='' className='btn btn-primary' onClick={this.checkOut}>CheckOut</button>
+                    
                 </div>
                 
             </div>

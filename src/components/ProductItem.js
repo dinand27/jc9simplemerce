@@ -13,6 +13,7 @@ class ProductItem extends Component {
         }, selectedId:0,
         cart:[]
     }
+   
     componentDidMount(){
         // Akses database
         this.getProduct()
@@ -26,24 +27,10 @@ class ProductItem extends Component {
         })
     }
 
-    addtoCart = id => {
-        var nama = this.props.barang.name
-        var desk = this.props.barang.desc
-        var harga = this.props.barang.harga
+    addToCart = () => {
+        console.log('addtocart BUtton')
 
-        axios.patch(
-            'http://localhost:2019/cart/' + id,
-            {
-                name: nama,
-                desc: desk,
-                price: harga
-            }
-        ).then(res => {
-            this.getProduct()
-        }).catch(err => {
-            console.log('Gagal patch')
-        })
-    }   
+      }
 
     //     axios.post(
     //         'http://localhost:2019/cart',
@@ -71,11 +58,15 @@ class ProductItem extends Component {
                 <div className='card-body'>
                     <h5 className='card-title'>{name}</h5>
                     <p className='card-text'>IDR.{price}</p>
-                    <input type='text' className='form-control'/>
+
+                    <input type="number" value={this.state.quantity} name="quantity" 
+                    onChange={this.handleInputChange} className="float-right" 
+                    style={{ width: "60px", marginRight: "10px", borderRadius: "3px"}}/>
+
                     <Link to={'/detailproduct/' + id}>
                         <button className='btn btn-outline-primary btn-block'>Details</button>
                     </Link>
-                    <button className='btn btn-primary btn-block' onClick={this.addtoCart}  >Add To Cart</button>
+                    <button className='btn btn-primary btn-block' onClick={this.addtoCart} >Add To Cart</button>
                 </div>
             </div>
         )
