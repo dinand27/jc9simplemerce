@@ -41,14 +41,9 @@ class ProductItem extends Component {
         ).then(res => {
             this.getProduct()
         }).catch(err => {
-            console.log('Gagal')
+            console.log('Gagal patch')
         })
-    }
-
-    
-       
-
-
+    }   
 
     //     axios.post(
     //         'http://localhost:2019/cart',
@@ -87,4 +82,4 @@ class ProductItem extends Component {
     }
 } 
 
-export (ProductItem) (addtoCart())
+export default ProductItem
