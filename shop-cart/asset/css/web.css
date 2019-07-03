@@ -1,0 +1,115 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	background: #eeeeee;
+	font-family:Tahoma,Arial;
+	width: 100%;
+	background-image:url(../img/bg-web.gif);
+	background-position:left;
+	background-repeat:repeat;
+}
+
+#easyNotification{
+	padding:10px;
+	width:390px;
+	right:0;
+	bottom:0;
+	margin-bottom:10px;
+	margin-right:10px;
+	background:#9D2D69;
+	position:fixed;
+	color:#FFFFFF;
+	border:1px solid #000000;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	-webkit-border-radius:5px;
+	font-family:Tahoma;
+	opacity: 0.9;
+	font-size:11px;
+
+}
+#easyNotification span{
+	float:right;
+	cursor:pointer;
+	background-color:#9D2D69;
+	margin-top:-5px;
+	padding:5px;
+	color:#FFFFFF;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-webkit-border-radius:3px;
+	font-size:10px;
+}	
+#easyNotification span:hover{
+	background-color:#DDF070;
+	color:#000000;
+}	
+#keranjang{
+	margin:0px auto;
+	width:880px;
+	display:none;
+	background-color:#333333;
+	padding:10px;
+	color:#FFFFFF;
+}	
+#tombol-tampil{
+	margin:0px auto;
+	width:880px;
+	background-image:url(../img/bg-tampil.jpg);
+	background-repeat:repeat-x;
+	padding:10px;
+	text-align:right;
+}
+#barang{
+	width:880px;
+	padding:10px;
+	clear:both;
+	margin:0px auto;
+}
+#sub-barang{
+width:210px;
+padding:150px 5px 5px 5px;
+background-image:url(../img/server.png);
+background-repeat:no-repeat;
+float:left;
+}
+#sub-barang h1{
+font-size:12px;
+font-weight:bold;
+text-align:center;
+}
+.submit{
+background-image:url(../img/pesan.png);
+background-repeat:no-repeat;
+width:150px;
+border:0px;
+background-color:#FFFFFF;
+height:30px;
+cursor:pointer;
+}
+a{
+text-decoration:none;
+color:#FFFFFF;
+font-weight:bold;
+padding:3px;
+border:1px solid #FFFFFF;
+background-color:#000000;
+font-size:11px;
+}
+.kirim{
+color:#FFFFFF;
+font-weight:bold;
+padding:3px;
+cursor:pointer;
+border:1px solid #FFFFFF;
+background-color:#000000;
+font-size:11px;
+}
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }

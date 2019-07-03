@@ -1,0 +1,2 @@
+untuk mengganti isi database json,
+harus di kill dulu baru perubahannya terlihat/ tersimpan

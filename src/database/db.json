@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "alvin",
+      "email": "alvin@gmail.com",
+      "password": "satuduatiga"
+    },
+    {
+      "username": "dinand27",
+      "email": "email",
+      "password": "123",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "desc": "Hidup yang baru",
+      "name": "Barang baru",
+      "price": "60000",
+      "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 1
+    },
+    {
+      "desc": "Batik dengan motif halus dan Nyaman dipakai",
+      "name": "Baju Batik",
+      "price": 110000,
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmul49kA_nSwUkI6dYI9X6b3OY1Yi9fgNzRTvrWk9agCryg2Dyw",
+      "id": 2
+    },
+    {
+      "desc": "Batik dengan motif halus dan Nyaman dipakai",
+      "name": "Baju Batik",
+      "price": 200000,
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4asvjihITAppmY_qwuBOSI8kae8GnHV0QUIA0FCDSXVSYDen0g",
+      "id": 3
+    },
+    {
+      "desc": "234",
+      "name": "hahaha",
+      "price": 2342,
+      "src": "etr",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "desc": "Hidup yang baru",
+      "name": "Barang baru",
+      "price": "60000",
+      "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 1
+    }
+  ]
+}

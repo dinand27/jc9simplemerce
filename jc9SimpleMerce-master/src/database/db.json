@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "alvin",
+      "email": "alvin@gmail.com",
+      "password": "satuduatiga"
+    }
+  ],
+  "products": [
+    {
+      "desc": "Hidup yang baru",
+      "name": "Barang baru",
+      "price": 30000,
+      "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 1
+    }
+  ]
+}
